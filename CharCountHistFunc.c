@@ -7,8 +7,7 @@ int main () {
     int freq[60]={0};
     int count, postn, c, found;
     count = postn = 0;
-    // int searchChar(chars, c);
-
+    
 // count characters and make array of frequency
     while((c = getchar()) != EOF){
         found=0;
