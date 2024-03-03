@@ -23,5 +23,5 @@ int main(){
             printf("%c", c);
         }
     }
-    if(c==EOF) printf("\n");
+    if(c==EOF) printf("\n"); // continue console in new line after end of program
 } 
