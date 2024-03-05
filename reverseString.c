@@ -29,6 +29,9 @@ int main (){
             memset(s,'\0',LIM);
         }
     }
+    reverseString(s, len-1);
+        s[len+1] = '\0';
+        printf("%s \n", s);
     printf( "\n");
 }
 
@@ -42,6 +45,6 @@ void reverseString(char s[LIM], int end){
         s[start] = s[end];
         s[end] = temp;
         ++start;
-        --  end;
+        --end;
     }
 }
